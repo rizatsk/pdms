@@ -1,0 +1,124 @@
+/* Validation */
+.message-error{
+  color: red;
+  display: block;
+  font-size:14px;
+  margin-left:5px;
+  margin-top: -10px;
+}
+
+.message-error p{
+  color: red;
+  display: block;
+  font-size:14px;
+  margin-left:5px;
+  margin-top: -10px;
+}
+
+.swal-footer{
+  background-color: rgb(245, 248, 250);
+  margin-top: 20px;
+  border-top: 1px solid #E9EEF1;
+  overflow: hidden;
+  text-align: center;
+} 
+
+.swal-button--confirm{
+  padding: 7px 20px;
+} 
+
+#preloader{
+  background-color: rgba(0, 0, 0, 0.494);
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.body-preloader{
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+
+.border-table{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.datepicker {
+  z-index: 2051 !important;
+}
+
+/* Data Tables */
+#tableCategory_info,
+#tableCategory_paginate ul li a,
+#tableCategory_length label,
+#tableCategory_filter label{
+  font-size: 13px;
+}
+
+#tableCategory_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+
+#tableProduct_info,
+#tableProduct_paginate ul li a,
+#tableProduct_length label,
+#tableProduct_filter label{
+  font-size: 13px;
+}
+
+#tableProduct_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+
+#table-incomes_info,
+#table-incomes_paginate ul li a,
+#table-incomes_length label,
+#table-incomes_filter label{
+  font-size: 13px;
+}
+
+#table-incomes_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+
+#tableIncome_info,
+#tableIncome_paginate ul li a,
+#tableIncome_length label,
+#tableIncome_filter label{
+  font-size: 13px;
+}
+
+#tableIncome_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+
+#table-expenditures_info,
+#table-expenditures_paginate ul li a,
+#table-expenditures_length label,
+#table-expenditures_filter label{
+  font-size: 13px;
+}
+
+#table-expenditures_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+
+#tableExpenditure_info,
+#tableExpenditure_paginate ul li a,
+#tableExpenditure_length label,
+#tableExpenditure_filter label{
+  font-size: 13px;
+}
+
+#tableExpenditure_filter label input{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 14px;
+} 
+/* End */
