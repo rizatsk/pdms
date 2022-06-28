@@ -17,7 +17,6 @@ terdapat juga fitur cabang toko untuk dapat mengelola data di setiap masing masi
 ## Used Technology
 
 - [Javascript](https://www.javascript.com/) - Programing Language
-- [NodeJS](https://nodejs.org/en/about/) - Runtime Environment 
 - [CodeIgniter 3](https://www.codeigniter.com/) - CodeIngiter 3
 - [BootStrap 5](https://getbootstrap.com/) - Bootstrap 5
 - [Postgres](https://www.postgresql.org/) - Postgres
@@ -25,11 +24,12 @@ terdapat juga fitur cabang toko untuk dapat mengelola data di setiap masing masi
 
 ## Getting Started
 1. Create database in your postgres "pdms"
-2. Restore your database "pdms" with file pdms_dev.sql
-3. Setting application -> config -> database.php
+2. Restore your database "pdms" with file db_ pdms_dev.sql
+3. Setting application/config/database.php
 4. Adjustment with your database config.
-5. Setting application -> config -> config.php, $config['base_url'] = 'http://localhost/' OR 'your domain' 
+5. Setting application/config/config.php, $config['base_url'] = 'http://localhost/' OR 'your domain' 
 6. Not work? [open issue](https://github.com/rizatsk/pdms_dev/issues)
+7. Setting base url in file All .js , assets/js/function
 
 ## Fitur
 - Authentication
